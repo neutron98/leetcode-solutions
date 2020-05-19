@@ -1,6 +1,6 @@
 
 // DFS
-// Time: O(E^2)
+// Time: O(N^2) . N is numer of edges
 // Space: O(N)
 
 class Solution1 {
