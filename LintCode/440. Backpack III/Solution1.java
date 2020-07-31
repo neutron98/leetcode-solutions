@@ -1,7 +1,5 @@
 
-// O(mn), O(mn)
-// 时间上已经优化
-// 跟2相比只是把 i-1改成i
+
 class Solution{
 	public int backpack(int m, int[] A, int[] V){
 		// 1. f[i][w]: max value using first {i} [types] of items to make up {w}
@@ -27,7 +25,7 @@ class Solution{
 		}
 		for (int i = 1; i <= n; i++){
 			for (int w = 0; w <= m; w++){
-				if (w >= k * A[i - 1] && f[i][w - k * A[i - 1]] != -1){
+				if (w >= A[i - 1] && f[i][w - A[i - 1]] != -1){
 					f[i][w] = Math.max(f[i - 1][w], f[i][w - A[i - 1] + V[i - 1]);
 				}
 			}
