@@ -26,11 +26,23 @@ public class Solution {
         
         int n = A.length;
         int[] f = new int[m+1];
+        boolean[][] pi = new boolean[n+1][m+1]; // true: using {i} item for weight {w}
         
 
         for (int i = 1; i <=n; i++){
             for (int w = m; w >= A[i-1]; w--){
                 f[w] = Math.max(f[w],f[w-A[i-1]] + A[i-1]);
+                if (f[w] == f[w-A[i-1]] + A[i-1]){
+                    pi[i][w] = true;
+                }
+            }
+        }
+        
+        int j = f[m];
+        for (int i = n; i >=1; i--){
+            if (pi[i][j]){
+                System.out.println(A[i - 1]);
+                j -= A[i - 1];
             }
         }
   
