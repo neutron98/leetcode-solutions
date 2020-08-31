@@ -10,7 +10,7 @@ class Solution {
         Stack<Character> stack = new Stack<>();
         for (char c: s.toCharArray()){
             if (map.containsKey(c)){  // right parenthesis
-                if (!stack.empty() && map.get(c) != stack.pop()){
+                if (stack.empty() || map.get(c) != stack.pop()){
                     return false;
                 }
             } else{ // left parenthesis
