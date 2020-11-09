@@ -2,10 +2,9 @@
 
 
 
-II. Two Pointers
+**II. Two Pointers**
 
 Easy
-
 - [167. Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) : 当输入是sorted的时候，可以用two pointers
 - [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/): l指向的是最后一个non-duplicate，r是当前元素。相似题：[283. Move Zeroes](https://leetcode.com/problems/move-zeroes/)
 - [977. Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/): 相向双指针，值从高到低。和merge sort很像。
@@ -20,8 +19,8 @@ Medium:
 - [844. Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/): 反着走。并且每个String都有交替指针。
 - [581. Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/): 画图很有用。
 
+**III. Fast & Slow Pointers**
 
-III. Fast & Slow Pointers
 Easy
 - [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
 - [202. Happy Number](https://leetcode.com/problems/happy-number/)
@@ -33,4 +32,4 @@ Medium
 - [143. Reorder List](https://leetcode.com/problems/reorder-list/): pointers的部分不难，只是找middle。难点在于交换。
 - [457. Circular Array Loop](https://leetcode.com/problems/circular-array-loop/): 还是移一步或者两步的问题，只不过找next的过程用了个helper function。
 
-IV. Merge Intervals
+**IV. Merge Intervals**
