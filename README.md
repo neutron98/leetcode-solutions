@@ -19,3 +19,18 @@ Medium:
 - [18. 4Sum](https://leetcode.com/problems/4sum/): 和3Sum差不多
 - [844. Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/): 反着走。并且每个String都有交替指针。
 - [581. Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/): 画图很有用。
+
+
+III. Fast & Slow Pointers
+Easy
+- [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
+- [202. Happy Number](https://leetcode.com/problems/happy-number/)
+- [876. Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)
+- [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/): 结合了find middle of linkedlist和reverse linked list
+
+Medium
+- [142. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/): 两次用fast & slow pointers
+- [143. Reorder List](https://leetcode.com/problems/reorder-list/): pointers的部分不难，只是找middle。难点在于交换。
+- [457. Circular Array Loop](https://leetcode.com/problems/circular-array-loop/): 还是移一步或者两步的问题，只不过找next的过程用了个helper function。
+
+IV. Merge Intervals
