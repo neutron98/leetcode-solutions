@@ -42,3 +42,4 @@ Medium
 - [448. Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/): 同上
 - [287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/): 这道题的range是1~n。用两次loop的话，和上面差不多。如果只用一次loop，思考方式会有一点点不一样。第一次比较：因为有duplicates，第一次不能直接看这个数是不是在right place。因为可能right place已经有一个相同的数了。那么先看这个数是不是【出现在了不应该在的地方】，也就是比较数和index+1，如果是，那看【应该在的地方】有没有这个数。如果还没有这个数，就把它换过去，如果有这个数了，就说明坑位被占了，发现了duplicate。
 - [41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/)
+- [1539. Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number/): 需要处理remaining numbers
