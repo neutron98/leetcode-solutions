@@ -54,3 +54,4 @@ Medium
 - [90. Subsets II](https://leetcode.com/problems/subsets-ii/)： 有重复元素的情况，一定要记得先sort。
 - [784. Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/): 和78的第一种方法很像。
 - [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/): 两种做法。都需要leftCount和rightCount。如果用BFS，需要有一个custom class。也可以用DFS。
+- [320. Generalized Abbreviation](https://leetcode.com/problems/generalized-abbreviation/): 两种做法。和上题类似需要一个custom class。两个重点：（1）在长度没达到时，count不具体化。（2）backtracking解法中，使用提前记录StringBuilder的长度，最后再setLength的方法来还原状态。
