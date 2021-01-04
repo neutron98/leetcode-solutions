@@ -1,4 +1,5 @@
 // recursive
+// O(N * 2^N), O(N * 2^N)
 class Solution {
     public List<String> generateParenthesis(int n) {
         List<String> results = new ArrayList<>();
