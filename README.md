@@ -34,7 +34,8 @@ Medium
 
 **IV. Merge Intervals**
 
-
+- [46. Merge Intervals](https://leetcode.com/problems/merge-intervals/)
+- [47. Insert Interval](https://leetcode.com/problems/insert-interval/)
 
 **V. Cyclic Sort**
 
