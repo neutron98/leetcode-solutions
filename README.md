@@ -37,6 +37,8 @@ Medium
 - [46. Merge Intervals](https://leetcode.com/problems/merge-intervals/)
 - [47. Insert Interval](https://leetcode.com/problems/insert-interval/)
 - [986. Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/)
+- [252. Meeting Rooms](https://leetcode.com/problems/meeting-rooms/)
+- [253. Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)
 
 **V. Cyclic Sort**
 
