@@ -39,6 +39,7 @@ Medium
 - [986. Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/)
 - [252. Meeting Rooms](https://leetcode.com/problems/meeting-rooms/)
 - [253. Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)
+- [(Grokking)Maximum CPU Load](https://www.educative.io/courses/grokking-the-coding-interview/xVlyyv3rR93): 类似上题，但是要用grokking的解法。
 
 **V. Cyclic Sort**
 
