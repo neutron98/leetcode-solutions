@@ -40,6 +40,7 @@ Medium
 - [252. Meeting Rooms](https://leetcode.com/problems/meeting-rooms/)
 - [253. Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)
 - [(Grokking)Maximum CPU Load](https://www.educative.io/courses/grokking-the-coding-interview/xVlyyv3rR93): 类似上题，但是要用grokking的解法。
+- [759. Employee Free Time](https://leetcode.com/problems/employee-free-time/): 类似merge intervals。先flatten整个list。triky的地方是不要管它是哪个employee。不同的是这里只要virtual merge。
 
 **V. Cyclic Sort**
 
