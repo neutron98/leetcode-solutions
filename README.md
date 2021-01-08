@@ -55,7 +55,13 @@ Medium
 
 **VII. Tree DFS**
 
-**VIII. Subsets**
+**IX. Two Heaps**
+- [295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)
+- [480. Sliding Window Median](https://leetcode.com/problems/sliding-window-median/): sliding window 和 295的结合版
+- [502. IPO](https://leetcode.com/problems/ipo/): 贪心算法
+
+
+**X. Subsets**
 - [78. Subsets](https://leetcode.com/problems/subsets/): 三种方法：(1) BFS，每次在已有的结果上加一个元素。 (2) DFS + Backtracking (3) Bit Manipulation
 - [90. Subsets II](https://leetcode.com/problems/subsets-ii/)： 有重复元素的情况，一定要记得先sort。
 - [784. Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/): 和78的第一种方法很像。
