@@ -72,3 +72,6 @@ Medium
 - [(Grokking)Structurally Unique Binary Search Trees](https://www.educative.io/courses/grokking-the-coding-interview/3j9V2QL3Ky9): 类似上题。上题是把每一个operator作为分界线，这题是把每一个[start,end] 区间的值作为根节点。
 - [96. Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)
 
+** 十一. Bit Operation**
+- [136. Single Number](https://leetcode.com/problems/single-number/): 核心在于 a XOR a = 0。 所以a XOR b XOR a = b。
+- [260. Single Number III](https://leetcode.com/problems/single-number-iii/)：结果有两个数。利用不同的bit来区分这两个数。
