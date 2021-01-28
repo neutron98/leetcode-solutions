@@ -81,3 +81,4 @@ Medium
 **十二. K-way merge**
 - [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/): minHeap
 - [Kth Smallest Number in M Sorted Lists](https://www.educative.io/courses/grokking-the-coding-interview/myAqDMyRXn3): 边merge边记录index。重点在于这里的merge是virtual merge，用node的arrayIndex和elementIndex在list中找值。
+- [632. Smallest Range Covering Elements from K Lists](https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/): 类似上题，加上贪心，并且记录每次插入的最大元素。
