@@ -14,7 +14,7 @@
 			输入:  [2,3,5,7], backpack size=12
 			输出:  12
 	
-**2. Backpack II** [IDE](https://www.lintcode.com/problem/backpack-ii/description)
+**2. Backpack II（01背包）** [IDE](https://www.lintcode.com/problem/backpack-ii/description)
 
 有 n 个物品和一个大小为 m 的背包. 每个物品只能取一次. 第 i 个物品的体积为 A\[i], *价值为 V[i]*.
 
