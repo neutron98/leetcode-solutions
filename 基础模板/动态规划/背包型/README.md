@@ -4,7 +4,7 @@
 
 问最多能装多满？
 
-	样例
+样例
 	
 		样例 1:
 			输入:  [3,4,8,5], backpack size=10
@@ -13,7 +13,13 @@
 		样例 2:
 			输入:  [2,3,5,7], backpack size=12
 			输出:  12
-	
+
+解：
+
+		f[i][w]: 前i个物品的最大重量
+		
+		f[i][w] = max(f[i-1][w], f[i-1][w-A[i-1]] + A[i-1])
+		
 **2. Backpack II（01背包）** [IDE](https://www.lintcode.com/problem/backpack-ii/description)
 
 有 n 个物品和一个大小为 m 的背包. 每个物品只能取一次. 第 i 个物品的体积为 A\[i], *价值为 V[i]*.
@@ -44,7 +50,7 @@
 		
 		f[w] = Math.max(f[w], f[w-A[i-1]] + V[i-1])
 
-**3. Backpack III**    [IDE](https://www.lintcode.com/problem/backpack-iii/description)
+**3. Backpack III（完全背包问题）**    [IDE](https://www.lintcode.com/problem/backpack-iii/description)
 
 有 n 个物品和一个大小为 m 的背包.每种物品都有*无限个*. 第 i 个物品的体积为 A[i], 价值为 V[i].
 
@@ -63,7 +69,9 @@
 		
 		解释: 策略不唯一. 比如, 装入五个物品 0 (A[0] = 1, V[0] = 1).
 
-**4. Backpack V** [IDE](https://www.lintcode.com/problem/backpack-v/description)
+**3.多重背包问题**    [Blog](https://blog.csdn.net/roufoo/article/details/83088731)
+
+**5. Backpack V ([Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)) ** [IDE](https://www.lintcode.com/problem/backpack-v/description)
 
 给出 n 个物品, 以及一个数组, nums[i] 代表第i个物品的大小, 保证大小均为正数, 正整数 target 表示背包的大小。*每一个物品只能使用一次*。
 
@@ -78,8 +86,17 @@
 		
 		返回 2
 
+**6. Backpack VI(Coin Change 2)** [IDE](https://leetcode.com/problems/coin-change-2/)
+给出一个都是正整数的数组 nums，其中没有重复的数。
 
-**5. Backpack VI(Combination Sum)** [IDE](https://www.lintcode.com/problem/combination-sum-iv/description)
+从中找出所有的和为 target 的组合个数。
+
+注意事项：
+
+- 一个数可以在组合中出现多次。
+
+
+**6. Backpack VI(Combination Sum)** [IDE](https://www.lintcode.com/problem/combination-sum-iv/description)
 
 给出一个都是正整数的数组 nums，其中没有重复的数。
 
