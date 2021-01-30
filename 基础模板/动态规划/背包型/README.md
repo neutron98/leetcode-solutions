@@ -20,7 +20,7 @@
 
 问可以装入背包的最大价值是多少?
 
-	样例
+样例
 	
 		样例 1:
 		输入: m = 10, A = [2, 3, 5, 7], V = [1, 5, 2, 4]
@@ -31,8 +31,18 @@
 		输入: m = 10, A = [2, 3, 8], V = [2, 5, 8]
 		输出: 10
 		
+解：
 
+		f[i][w]表示前i件物品放入容量为w的背包所能获得的最大价值。
+		状态转移方程：
 
+		f[i][w] = max{f[i-1][w], f[i-1][w-A[i-1]] + V[i-1]}  （第i件物品放或不放）
+
+优化空间：
+
+		推f[i][w]时，忽略i，也就是f[w]。这时f[w-A[i]]=[i-1][W-A[i]]
+		
+		f[w] = Math.max(f[w], f[w-A[i-1]] + V[i-1])
 
 **3. Backpack III**    [IDE](https://www.lintcode.com/problem/backpack-iii/description)
 
