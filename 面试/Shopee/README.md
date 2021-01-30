@@ -1,7 +1,7 @@
 1. [kth largest element](https://leetcode.com/problems/kth-largest-element-in-an-array/)
 2. [Count Primes](https://leetcode.com/problems/count-primes/)
 3. [Valid palindrome with at most one element removed, must be o(n)](https://leetcode.com/problems/valid-palindrome-ii/)
-4. [First occurence of a number in an array, must be faster than o(n)](34. Find First and Last Position of Element in Sorted Array)
+4. [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
 5. Lucky numbers
 6. tree traversal
 7. [Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)
