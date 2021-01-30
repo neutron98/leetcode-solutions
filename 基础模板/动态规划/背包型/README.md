@@ -52,8 +52,24 @@
 		输出: 5
 		
 		解释: 策略不唯一. 比如, 装入五个物品 0 (A[0] = 1, V[0] = 1).
+
+**4. Backpack V** [IDE](https://www.lintcode.com/problem/backpack-v/description)
+
+给出 n 个物品, 以及一个数组, nums[i] 代表第i个物品的大小, 保证大小均为正数, 正整数 target 表示背包的大小。*每一个物品只能使用一次*。
+
+找到能*填满*背包的方案数。
+
+	样例
+		给出候选物品集合 [1,2,3,3,7] 以及 target 7
+
+		结果的集合为:
+		[7]
+		[1,3,3]
 		
-**4. Backpack V(Combination Sum)** [IDE](https://www.lintcode.com/problem/combination-sum-iv/description)
+		返回 2
+
+
+**5. Backpack VI(Combination Sum)** [IDE](https://www.lintcode.com/problem/combination-sum-iv/description)
 
 给出一个都是正整数的数组 nums，其中没有重复的数。
 
