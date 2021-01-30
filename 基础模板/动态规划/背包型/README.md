@@ -33,7 +33,7 @@
 
 
 
-**3. Backpack III**
+**3. Backpack III**    [IDE](https://www.lintcode.com/problem/backpack-iii/description)
 
 有 n 个物品和一个大小为 m 的背包.每种物品都有*无限个*. 第 i 个物品的体积为 A[i], 价值为 V[i].
 
