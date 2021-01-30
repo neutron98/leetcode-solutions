@@ -12,6 +12,7 @@
 12. 用多重背包算法来做
 13. [25. Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)
 14. [Excel](Excel.java)
+15. [Find n-th element in a series with only 2 digits (4 and 7) allowed](FindNth.java)
 
 
 [还原二叉树](https://www.jianshu.com/p/2943a21d2a99)
