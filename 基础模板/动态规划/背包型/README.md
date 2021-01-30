@@ -71,7 +71,7 @@
 
 **4.多重背包问题**    [Blog](https://blog.csdn.net/roufoo/article/details/83088731)
 
-**5. Backpack V ([Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)) ** [IDE](https://www.lintcode.com/problem/backpack-v/description)
+**5. Backpack V ([Combination Sum II](https://leetcode.com/problems/combination-sum-ii/))** [IDE](https://www.lintcode.com/problem/backpack-v/description)
 
 给出 n 个物品, 以及一个数组, nums[i] 代表第i个物品的大小, 保证大小均为正数, 正整数 target 表示背包的大小。*每一个物品只能使用一次*。
 
