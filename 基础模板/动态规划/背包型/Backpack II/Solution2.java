@@ -1,3 +1,4 @@
+// 好像可以不用管重量超不超
 public class Solution {
     /**
      * @param m: An integer m denotes the size of a backpack
@@ -6,44 +7,38 @@ public class Solution {
      * @return: The maximum value
      */
     public int backPackII(int m, int[] A, int[] V) {
-        // write your code here
+        // 1. f[i][w]: first {i} items, max size {w}. max value 
+        // 2. f[i][w] = max(f[i-1][w], f[i-1][w-A[i-1]] + V[i-1])
+        // where w-A[i-1] >= 0
+        // 3. init 
+        // f[0][0...w] = 0
+        // f[0...n][0] = 0 
         
-        // (1)if first {n-1} items can make up W, max value is V, then the first {n} items
-        // can also make up W, max value is V
+        // 4. res 
+        // f[n][m] 
         
-        // (2) if first {n-1} items can make up W-A[n-1], max value is V-V[n-1]
-        // then plus last item can make W, max value is V 
-        
-        // f[i][w] = max value when using first {i} items to make up {w}
-        // -1 means cannot make
-        // f[i][w] = max{f[i-1][w], f[i-1][w-A[i-1]] + V[i-1]}  where w>=A[i-1] && f[i-1][w-A[i-1]] != -1}
-        // 重量不超，能拼出来
-        
-        // 3. init: f[0][0] = 0, f[0][1...M] = -1
-        // 4. answer: max{f[N][j]
         
         int n = A.length;
-        int[] f = new int[m+1];
+        int[][] f = new int[n+1][m+1];
         
-        f[0] = 0;
-        for (int w = 1; w <= m; w++){
-            f[w] = -1;
+        for (int j = 0; j <= m; j++){
+            f[0][j] = 0;
+        }
+        
+        for (int i = 0; i <= n; i++){
+            f[i][0] = 0;
         }
         
         for (int i = 1; i <= n; i++){
-            for (int w = m; w >= A[i-1]; w--){
-                if (f[w-A[i-1]] != -1){
-                    f[w] = Math.max(f[w], f[w-A[i-1]] + V[i-1]);
+            for (int w = 1; w <= m; w++){
+                f[i][w] = f[i-1][w];
+                if (w >= A[i-1]){
+                    f[i][w] = Math.max(f[i][w], f[i-1][w-A[i-1]] + V[i-1]);
                 }
             }
         }
         
-        int res = 0;
-        for (int w = 0; w <= m; w++){
-            if (f[w] != -1){
-                res = Math.max(f[w], res);                
-            }
-        }
-        return res;
+        return f[n][m];
+        
     }
 }
