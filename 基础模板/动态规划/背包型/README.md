@@ -69,7 +69,7 @@
 		
 		解释: 策略不唯一. 比如, 装入五个物品 0 (A[0] = 1, V[0] = 1).
 
-**3.多重背包问题**    [Blog](https://blog.csdn.net/roufoo/article/details/83088731)
+**4.多重背包问题**    [Blog](https://blog.csdn.net/roufoo/article/details/83088731)
 
 **5. Backpack V ([Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)) ** [IDE](https://www.lintcode.com/problem/backpack-v/description)
 
