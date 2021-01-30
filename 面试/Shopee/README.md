@@ -23,3 +23,19 @@ https://github.com/Tscharrl/Shopee-Interview-Backend
 https://leetcode-cn.com/circle/discuss/inYBDb/
 
 
+[数据库范式](https://www.zhihu.com/question/24696366)
+
+2NF: No partial dependencies
+不存在*非主属性*对于key的*部分依赖*
+（学号，课程名） -> (姓名，年龄，成绩，学分）
+
+符合1NF但是不符合2NF。应该改为：
+
+(课程名） -> (学分)
+(学号) -> (姓名，年龄）
+(学号，课程名) -> （成绩）
+
+3NF: No transitive dependencies   
+不存在非主属性对key的部分函数依赖和*传递依赖*
+
+BCNF： 不存在*主属性*(prime attribute)对于key的部分函数依赖与传递函数依赖
