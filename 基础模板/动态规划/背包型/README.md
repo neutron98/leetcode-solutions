@@ -95,8 +95,11 @@
 
 - 一个数可以在组合中出现多次。
 
+- 数的顺序不同则会被认为是相同的组合。
 
-**6. Backpack VI(Combination Sum)** [LintCode](https://www.lintcode.com/problem/combination-sum-iv/description)
+这两道题只是交换循环顺序的区别
+
+**7. Backpack VI(Combination Sum)** [LintCode](https://www.lintcode.com/problem/combination-sum-iv/description)
 
 给出一个都是正整数的数组 nums，其中没有重复的数。
 
