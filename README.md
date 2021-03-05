@@ -2,7 +2,7 @@
 
 
 
-**II. Two Pointers**
+**2. Two Pointers**
 
 Easy
 - [167. Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) : 当输入是sorted的时候，可以用two pointers
@@ -19,7 +19,7 @@ Medium:
 - [844. Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/): 反着走。并且每个String都有交替指针。
 - [581. Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/): 画图很有用。
 
-**III. Fast & Slow Pointers**
+**3. Fast & Slow Pointers**
 
 Easy
 - [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
@@ -32,7 +32,7 @@ Medium
 - [143. Reorder List](https://leetcode.com/problems/reorder-list/): pointers的部分不难，只是找middle。难点在于交换。
 - [457. Circular Array Loop](https://leetcode.com/problems/circular-array-loop/): 还是移一步或者两步的问题，只不过找next的过程用了个helper function。
 
-**IV. Merge Intervals**
+**4. Merge Intervals**
 
 - [46. Merge Intervals](https://leetcode.com/problems/merge-intervals/)
 - [47. Insert Interval](https://leetcode.com/problems/insert-interval/)
@@ -42,7 +42,7 @@ Medium
 - [(Grokking)Maximum CPU Load](https://www.educative.io/courses/grokking-the-coding-interview/xVlyyv3rR93): 类似上题，但是要用grokking的解法。
 - [759. Employee Free Time](https://leetcode.com/problems/employee-free-time/): 类似merge intervals。先flatten整个list。triky的地方是不要管它是哪个employee。不同的是这里只要virtual merge。
 
-**V. Cyclic Sort**
+**5. Cyclic Sort**
 
 - [Grokking. Find The Missing Number](https://www.educative.io/courses/grokking-the-coding-interview/JPnp17NYXE9): 这道题的range是0~n-1。第一次比较：【应该在的地方没有这个数】当前在i,nums[i]是'2'，应该放在index '2'。但是如果'2'和index'2'的这个数不想等，就要交换。第二次比较：【这个地方没有应该在的数】，也就是从0到n-1，这个数是不是和index不相等。不相等的话返回index。
 - [448. Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/): 同上
@@ -50,19 +50,21 @@ Medium
 - [41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/)
 - [1539. Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number/): 需要处理remaining numbers
 
+**6. LinkedList**
 
-**VI. Tree BFS**
 
-**VII. Tree DFS**
+**7. Tree BFS**
 
-**IX. Two Heaps**
+**8. Tree DFS**
+
+**9. Two Heaps**
 - [295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)
 - [480. Sliding Window Median](https://leetcode.com/problems/sliding-window-median/): sliding window 和 295的结合版
 - [502. IPO](https://leetcode.com/problems/ipo/): 贪心算法
 - [(Grokking) Next Interval/ 436. Find Right Interval](https://leetcode.com/problems/find-right-interval/):还没做
 
 
-**X. Subsets**
+**10. Subsets**
 - [78. Subsets](https://leetcode.com/problems/subsets/): 三种方法：(1) BFS，每次在已有的结果上加一个元素。 (2) DFS + Backtracking (3) Bit Manipulation
 - [90. Subsets II](https://leetcode.com/problems/subsets-ii/)： 有重复元素的情况，一定要记得先sort。
 - [784. Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/): 和78的第一种方法很像。
@@ -72,7 +74,7 @@ Medium
 - [(Grokking)Structurally Unique Binary Search Trees](https://www.educative.io/courses/grokking-the-coding-interview/3j9V2QL3Ky9): 类似上题。上题是把每一个operator作为分界线，这题是把每一个[start,end] 区间的值作为根节点。
 - [96. Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)
 
-**十一. Bit Operation**
+**11. Bit Operation**
 - [136. Single Number](https://leetcode.com/problems/single-number/): 核心在于 a XOR a = 0。 所以a XOR b XOR a = b。
 - [260. Single Number III](https://leetcode.com/problems/single-number-iii/)：结果有两个数。利用不同的bit来区分这两个数。
 
