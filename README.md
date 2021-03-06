@@ -51,7 +51,7 @@ Medium
 - [1539. Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number/): 需要处理remaining numbers
 
 **6. LinkedList**
-
+- [92. Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)
 
 **7. Tree BFS**
 
