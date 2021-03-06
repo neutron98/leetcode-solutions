@@ -52,6 +52,7 @@ Medium
 
 **6. LinkedList**
 - [92. Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)
+- [25. Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)
 
 **7. Tree BFS**
 
