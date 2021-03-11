@@ -80,7 +80,8 @@ Medium
 - [744. Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/):左开右闭模板 
 - [(Grokking) Search Bitonic Array](https://www.educative.io/courses/grokking-the-coding-interview/7n3BlOvqW0r):这题没法像leetcode 33那样分类。需要两次binary search。
 - [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
-- [50. Pow(x, n)](https://leetcode.com/problems/powx-n//)
+- [50. Pow(x, n)](https://leetcode.com/problems/powx-n/)
+- [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/)
 
 
 **12. Bit Operation**
