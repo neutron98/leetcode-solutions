@@ -17,6 +17,7 @@
 
 
 - [567. Permutation in String](https://leetcode.com/problems/permutation-in-string/)
+- [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)：这道题更新长度是在while循环里面
 
 **2. Two Pointers**
 
