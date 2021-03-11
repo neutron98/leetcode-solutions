@@ -82,7 +82,7 @@ Medium
 - [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
 - [50. Pow(x, n)](https://leetcode.com/problems/powx-n/)
 - [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/)
-
+- [74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)
 
 **12. Bit Operation**
 - [136. Single Number](https://leetcode.com/problems/single-number/): 核心在于 a XOR a = 0。 所以a XOR b XOR a = b。
