@@ -14,6 +14,10 @@
 - [395. Longest Substring with At Least K Repeating Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/)
 - [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 
+
+
+- [567. Permutation in String](https://leetcode.com/problems/permutation-in-string/)
+
 **2. Two Pointers**
 
 Easy
