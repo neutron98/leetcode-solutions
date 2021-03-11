@@ -95,3 +95,7 @@ Medium
 **二叉树**
 - [105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
 - [106. Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/): 注意这道题和上道题的不同，因为postIndex是减小的，左右根在遍历array的时候实际上是根右左，应该先root.right再root.left。
+
+
+**Stream类型问题**
+- [702. Search in a Sorted Array of Unknown Size](https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/)：end每次
