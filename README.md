@@ -1,5 +1,13 @@
 # leetcode-solutions 总结
+**1. Sliding Window**
+算sum类型：
+- [Maximum Sum Subarray of Size K](https://www.educative.io/courses/grokking-the-coding-interview/JPKr0kqLGNP)
+- [Smallest Subarray with a given sum](https://www.educative.io/courses/grokking-the-coding-interview/7XMlMEQPnnQ)
 
+用map存char frequency：
+- [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+- [159. Longest Substring with At Most Two Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/)
+- [340. Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/)
 
 
 **2. Two Pointers**
