@@ -1,5 +1,6 @@
 # leetcode-solutions 总结
 **1. Sliding Window**
+
 算sum类型：
 - [Maximum Sum Subarray of Size K](https://www.educative.io/courses/grokking-the-coding-interview/JPKr0kqLGNP)
 - [Smallest Subarray with a given sum](https://www.educative.io/courses/grokking-the-coding-interview/7XMlMEQPnnQ)
@@ -74,6 +75,7 @@ Medium
 
 
 **10. Subsets**
+
 - [78. Subsets](https://leetcode.com/problems/subsets/): 三种方法：(1) BFS，每次在已有的结果上加一个元素。 (2) DFS + Backtracking (3) Bit Manipulation
 - [90. Subsets II](https://leetcode.com/problems/subsets-ii/)： 有重复元素的情况，一定要记得先sort。
 - [784. Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/): 和78的第一种方法很像。
@@ -93,12 +95,14 @@ Medium
 - [74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)
 
 **12. Bit Operation**
+
 - [136. Single Number](https://leetcode.com/problems/single-number/): 核心在于 a XOR a = 0。 所以a XOR b XOR a = b。
 - [260. Single Number III](https://leetcode.com/problems/single-number-iii/)：结果有两个数。利用不同的bit来区分这两个数。
 
 
 
 **13. K-way merge**
+
 - [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/): minHeap
 - [Kth Smallest Number in M Sorted Lists](https://www.educative.io/courses/grokking-the-coding-interview/myAqDMyRXn3): 边merge边记录index。重点在于这里的merge是virtual merge，用node的arrayIndex和elementIndex在list中找值。
 - [632. Smallest Range Covering Elements from K Lists](https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/): 类似上题，加上贪心，并且记录每次插入的最大元素。
@@ -106,9 +110,11 @@ Medium
 
 
 **二叉树**
+
 - [105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
 - [106. Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/): 注意这道题和上道题的不同，因为postIndex是减小的，左右根在遍历array的时候实际上是根右左，应该先root.right再root.left。
 
 
 **Stream类型问题**
+
 - [702. Search in a Sorted Array of Unknown Size](https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/)：end每次
