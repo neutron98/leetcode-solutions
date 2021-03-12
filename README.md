@@ -126,7 +126,7 @@ Medium
 - [207. Course Schedule](https://leetcode.com/problems/course-schedule/)：需要会两种方法
 
 **二叉树**
-
+- [Implement Binary Search Tree](基础模板/BST/BST.java)
 - [105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
 - [106. Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/): 注意这道题和上道题的不同，因为postIndex是减小的，左右根在遍历array的时候实际上是根右左，应该先root.right再root.left。
 
@@ -136,11 +136,11 @@ Medium
 
 (1) Trie直接实现(20分钟内写完！)
 
--[208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/):Time:平均O(l)，最坏O(高度）。 Space:最坏O(n*l^2)。因为如果每个字母，每个前缀都不一样，总共有n*l个字母，每个字母最多有l个children。所以是n*l*l = O(n*l^2)
+- [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/):Time:平均O(l)，最坏O(高度）。 Space:最坏O(n*l^2)。因为如果每个字母，每个前缀都不一样，总共有n*l个字母，每个字母最多有l个children。所以是n*l*l = O(n*l^2)
 
 (2) 利用Trie前缀特性解题
 
--[211. Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/): Trie + DFS
+- [211. Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/): Trie + DFS
 
 (3) 矩阵类里面，字符串一个一个字符，深度优先遍历的问题
 - [212. Word Search II](https://leetcode.com/problems/word-search-ii/): 时间：O(sum(l)) + O(m*n*4^l)。空间O(sum(l))。
