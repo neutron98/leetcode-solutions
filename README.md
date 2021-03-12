@@ -119,6 +119,11 @@ Medium
 **14. Backtracking**
 - [79. Word Search](https://leetcode.com/problems/word-search/): 时间空间复杂度分析
 - [212. Word Search II](https://leetcode.com/problems/word-search-ii/)
+- [207. Course Schedule](https://leetcode.com/problems/course-schedule/)：需要会两种方法
+
+**15. Graph**
+
+- [207. Course Schedule](https://leetcode.com/problems/course-schedule/)：需要会两种方法
 
 **二叉树**
 
