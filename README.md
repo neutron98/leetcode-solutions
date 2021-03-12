@@ -122,6 +122,14 @@ Medium
 - [105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
 - [106. Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/): 注意这道题和上道题的不同，因为postIndex是减小的，左右根在遍历array的时候实际上是根右左，应该先root.right再root.left。
 
+**Trie**
+
+考点：
+(1) Trie直接实现
+-[208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
+
+(2) 利用Trie前缀特性解题
+(3) 矩阵类里面，字符串一个一个字符，深度优先遍历的问题
 
 **Stream类型问题**
 
