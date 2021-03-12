@@ -125,6 +125,7 @@ Medium
 **Trie**
 
 考点：
+
 (1) Trie直接实现
 -[208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
 
@@ -134,3 +135,7 @@ Medium
 **Stream类型问题**
 
 - [702. Search in a Sorted Array of Unknown Size](https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/)：end每次
+
+
+**数据量太大怎么办？**
+分成很多个chunk
