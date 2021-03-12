@@ -128,7 +128,7 @@ Medium
 
 (1) Trie直接实现(20分钟内写完！)
 
--[208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/):TimeO(l), Space:O(n*l^2)为什么？
+-[208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/):Time:平均O(l)，最坏O(高度）。 Space:最坏O(n*l^2)。因为如果每个字母，每个前缀都不一样，总共有n*l个字母，每个字母最多有l个children。所以是n*l*l = O(n*l^2)
 
 (2) 利用Trie前缀特性解题
 (3) 矩阵类里面，字符串一个一个字符，深度优先遍历的问题
