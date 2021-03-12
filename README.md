@@ -126,7 +126,8 @@ Medium
 
 考点：
 
-(1) Trie直接实现
+(1) Trie直接实现(20分钟内写完！)
+
 -[208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
 
 (2) 利用Trie前缀特性解题
