@@ -138,6 +138,7 @@ Medium
 -[211. Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/): Trie + DFS
 
 (3) 矩阵类里面，字符串一个一个字符，深度优先遍历的问题
+- [212. Word Search II](https://leetcode.com/problems/word-search-ii/): 时间：O(sum(l)) + O(m*n*4^l)。空间O(sum(l))。
 
 **Stream类型问题**
 
