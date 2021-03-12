@@ -128,7 +128,7 @@ Medium
 
 (1) Trie直接实现(20分钟内写完！)
 
--[208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
+-[208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/):TimeO(l), Space:O(n*l^2)为什么？
 
 (2) 利用Trie前缀特性解题
 (3) 矩阵类里面，字符串一个一个字符，深度优先遍历的问题
