@@ -132,6 +132,12 @@ Medium
 - [173. Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)
 
 
+Tree BFS的应用：
+- [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
+- [103. Binary Tree Zigzag Level Order Traversal](https://leetcode.com/tag/tree/)
+
+
+
 **Trie**
 
 考点：
@@ -156,3 +162,7 @@ Medium
 
 分成很多个chunk，让chunk来进行计算，返回计算结果和指针。主机维护的是指针。
 要具体看一下VM和分布式计算
+
+
+**Test case注意事项**
+- 对于值比较的问题，注意输入的范围，考虑int的上下界。有时候，把answer初始化成Long.MAX_VALUE比Integer.MAX_VALUE要好。参考[671](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/)题
