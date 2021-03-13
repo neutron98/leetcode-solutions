@@ -131,6 +131,7 @@ Medium
 - [106. Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/): 注意这道题和上道题的不同，因为postIndex是减小的，左右根在遍历array的时候实际上是根右左，应该先root.right再root.left。
 - [173. Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)
 
+- [426. Convert Binary Search Tree to Sorted Doubly Linked List](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/)：对于inorder的事情，只要无脑先helper(node.left)，再helper(node.right），中间做一些正事即可
 
 Tree BFS的应用：
 - [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
