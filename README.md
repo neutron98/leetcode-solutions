@@ -136,6 +136,7 @@ Medium
 Tree BFS的应用：
 - [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
 - [103. Binary Tree Zigzag Level Order Traversal](https://leetcode.com/tag/tree/)
+- [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
 
 
 
