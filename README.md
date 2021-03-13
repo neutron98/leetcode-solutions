@@ -139,6 +139,9 @@ Tree BFS的应用：
 - [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
 
 
+分治法：
+- [543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)
+- [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
 
 **Trie**
 
