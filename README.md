@@ -71,9 +71,9 @@ Medium
 - [92. Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)
 - [25. Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)
 
-**7. Tree BFS**
+**7. BFS**
 
-**8. Tree DFS**
+**8. DFS**
 
 **9. Two Heaps**
 - [295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)
@@ -125,10 +125,12 @@ Medium
 
 - [207. Course Schedule](https://leetcode.com/problems/course-schedule/)：需要会两种方法
 
-**二叉树**
+**16. Tree**
 - [Implement Binary Search Tree](基础模板/BST/BST.java)
 - [105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
 - [106. Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/): 注意这道题和上道题的不同，因为postIndex是减小的，左右根在遍历array的时候实际上是根右左，应该先root.right再root.left。
+- [173. Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)
+
 
 **Trie**
 
