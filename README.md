@@ -122,7 +122,14 @@ Medium
 - [207. Course Schedule](https://leetcode.com/problems/course-schedule/)：需要会两种方法
 
 **15. Graph**
+DFS:
+- [1466. Reorder Routes to Make All Paths Lead to the City Zero](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/)：时空复杂度怎么分析？
+- Time Complexity: O(E+V). It would take us |E| steps to build a graph in the first step.
+For dfs, we need to visit every child. It takes O(|V|). Since we are not backtracking, we do not need to do O(|V|^2)
+- Space Complexity: O(E+V). It takes O(2 * E + V) to store the connections, and O(V) to store the boolean[] visited. Calling stack will be O(V) in worst case. So total is O(2 * E + 3 * V) = O(E + V)
 
+
+Topological Sort:
 - [207. Course Schedule](https://leetcode.com/problems/course-schedule/)：需要会两种方法
 
 **16. Tree**
