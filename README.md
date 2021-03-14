@@ -154,6 +154,12 @@ Medium
 (5)Serialize and Deserialize
 - [449. Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/)，[297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)：这两道题的写法非常相似，serialize一模一样。唯一的不同是在deserialize的时候，对于什么时候return null。Binary Tree直接判断字符串是不是null；BST里面在serialize的时候没有加入null，所以可以利用BST的性质，传入max和min来判断。注意queue都写成String类型，因为在Binary Tree里面有Null.
 
+
+(6)使用parent和left, right的index性质：
+- [662. Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/)
+- [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)的非递归写法
+
+
 **Trie**
 
 考点：
