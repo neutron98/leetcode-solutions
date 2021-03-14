@@ -126,12 +126,12 @@ Medium
 - [207. Course Schedule](https://leetcode.com/problems/course-schedule/)：需要会两种方法
 
 **16. Tree**
-- [Implement Binary Search Tree](基础模板/BST/BST.java)
+
 - [105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
 - [106. Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/): 注意这道题和上道题的不同，因为postIndex是减小的，左右根在遍历array的时候实际上是根右左，应该先root.right再root.left。
 - [173. Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)
 
-- [426. Convert Binary Search Tree to Sorted Doubly Linked List](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/)：对于inorder的事情，只要无脑先helper(node.left)，再helper(node.right），中间做一些正事即可
+
 
 Tree BFS的应用：
 - [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
@@ -142,6 +142,13 @@ Tree BFS的应用：
 分治法：
 - [543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)
 - [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
+
+
+BST:
+- [Implement Binary Search Tree](基础模板/BST/BST.java)
+- [426. Convert Binary Search Tree to Sorted Doubly Linked List](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/)：对于inorder的事情，只要无脑先helper(node.left)，再helper(node.right），中间做一些正事即可
+- [449. Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/):和validate那道题很像
+
 
 **Trie**
 
