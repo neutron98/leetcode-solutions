@@ -168,7 +168,11 @@ Topological Sort:
 - [662. Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/)
 - [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)的非递归写法
 
-(7)其他：
+(7)LCA问题：
+- [236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/):不要把left和root.left搞混！
+- [1644. Lowest Common Ancestor of a Binary Tree II](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-ii/)
+
+(8)其他：
 - [222. Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/)：最优解是Tree+两次binary search。这题很神奇。
 
 **Trie**
