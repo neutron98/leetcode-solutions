@@ -139,6 +139,7 @@ Medium
 - [103. Binary Tree Zigzag Level Order Traversal](https://leetcode.com/tag/tree/)
 - [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
 - [662. Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/)
+- [199. Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)
 
 (3)分治法：
 - [543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)
@@ -159,6 +160,8 @@ Medium
 - [662. Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/)
 - [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)的非递归写法
 
+(7)其他：
+- [222. Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/)：最优解是Tree+两次binary search。这题很神奇。
 
 **Trie**
 
