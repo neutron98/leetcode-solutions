@@ -127,28 +127,32 @@ Medium
 
 **16. Tree**
 
+(1) Traverse and Iterator
 - [105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
 - [106. Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/): 注意这道题和上道题的不同，因为postIndex是减小的，左右根在遍历array的时候实际上是根右左，应该先root.right再root.left。
 - [173. Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)
 
 
 
-Tree BFS的应用：
+(2)Tree BFS的应用：
 - [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
 - [103. Binary Tree Zigzag Level Order Traversal](https://leetcode.com/tag/tree/)
 - [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
 - [662. Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/)
 
-分治法：
+(3)分治法：
 - [543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)
 - [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
 
 
-BST:
+(4)BST:
 - [Implement Binary Search Tree](基础模板/BST/BST.java)
 - [426. Convert Binary Search Tree to Sorted Doubly Linked List](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/)：对于inorder的事情，只要无脑先helper(node.left)，再helper(node.right），中间做一些正事即可
-- [449. Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/):和validate那道题很像
+- [449. Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/):和validate那道题的共同点是利用了max和min
 
+
+(5)Serialize and Deserialize
+- [449. Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/)，[297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)：这两道题的写法非常相似，serialize一模一样。唯一的不同是在deserialize的时候，对于什么时候return null。Binary Tree直接判断字符串是不是null；BST里面在serialize的时候没有加入null，所以可以利用BST的性质，传入max和min来判断。注意queue都写成String类型，因为在Binary Tree里面有Null.
 
 **Trie**
 
