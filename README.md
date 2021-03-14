@@ -138,7 +138,7 @@ Topological Sort:
 - [105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
 - [106. Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/): 注意这道题和上道题的不同，因为postIndex是减小的，左右根在遍历array的时候实际上是根右左，应该先root.right再root.left。
 - [173. Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)
-
+- [987.Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/binary-tree-vertical-order-traversal/)：这题其实不难，考验的是基本功。有趣的是可以用global的minColumn和maxColumn稍微优化。另外注意看清楚规则，按照值排序的时候要写comparator，按照顺序排序的时候（[314题](https://leetcode.com/problems/binary-tree-vertical-order-traversal/))其实并不用额外排序。时间复杂度的计算可以复习一下。
 
 
 (2)Tree BFS的应用：
