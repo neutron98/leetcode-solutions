@@ -35,6 +35,7 @@ Medium:
 - [18. 4Sum](https://leetcode.com/problems/4sum/): 和3Sum差不多
 - [844. Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/): 反着走。并且每个String都有交替指针。
 - [581. Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/): 画图很有用。
+- 
 
 **3. Fast & Slow Pointers**
 
@@ -175,7 +176,8 @@ Topological Sort:
 (8)其他：
 - [222. Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/)：最优解是Tree+两次binary search。这题很神奇。
 
-**Trie**
+
+**17. Trie**
 
 考点：
 
@@ -189,6 +191,30 @@ Topological Sort:
 
 (3) 矩阵类里面，字符串一个一个字符，深度优先遍历的问题
 - [212. Word Search II](https://leetcode.com/problems/word-search-ii/): 时间：O(sum(l)) + O(m*n*4^l)。空间O(sum(l))。
+
+**18. Array**
+
+- [289. Game of Life](https://leetcode.com/problems/game-of-life/):位运算省空间
+- [73. Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/):对第一行和第一列作projection
+- [31. Next Permutation](https://leetcode.com/problems/next-permutation/):先从后往前找下降，再swap，再reverse后面
+- [611. Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/)：通过控制k的循环，不让它go backward，将O(n^3)->O(n^2)
+- [581. Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/)：找到unsorted的l和r，再找到窗口内的min和max，然后向两端扩展
+- [665. Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/)：背下来
+- 
+**19. Prefix Sum**
+
+- [209. Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)：直接滑动窗口就行
+- [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)：类似two sum的rolling prefix sum。这题可以从brute force写起，然后写三种解法，better brute force的O(n^2)+O(1), prefix sum的O(n^2)+O(n), 以及rolling prefix sum。
+- [325. Maximum Size Subarray Sum Equals k](https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/)：和上题类似用一个map。注意index更新条件。
+- [862. Shortest Subarray with Sum at Least K](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/):这题很取巧，prefix sum数组+deque
+
+
+**20. String**
+
+- [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/):回顾一下overflow的判断条件
+- [8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)：回顾一下overflow的判断条件
+- [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/)：把key处理成"#1#2#3"这种格式很取巧
+
 
 **Stream类型问题**
 
