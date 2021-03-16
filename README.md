@@ -214,7 +214,7 @@ Topological Sort:
 - [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/):回顾一下overflow的判断条件
 - [8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)：回顾一下overflow的判断条件
 - [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/)：把key处理成"#1#2#3"这种格式很取巧
-
+- [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/submissions/)：和[132. Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii/)很像
 
 **Stream类型问题**
 
