@@ -216,6 +216,18 @@ Topological Sort:
 - [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/)：把key处理成"#1#2#3"这种格式很取巧
 - [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/submissions/)：和[132. Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii/)很像
 
+**21. DP**
+- [518. Coin Change 2](https://leetcode.com/problems/coin-change-2/)：注意循环顺序，避免重复
+- [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/):follow up:打印path
+- [64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)：dp能work是因为只能向下或者向右
+- [91. Decode Ways](https://leetcode.com/problems/decode-ways/):数组开n也可以，但是最好开n+1
+- [132. Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning/):区间型dp
+- [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)：直接expand around center
+- [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)：要能一步步推导
+- [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/)：和上题一样
+
+
+
 **Stream类型问题**
 
 - [702. Search in a Sorted Array of Unknown Size](https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/)：end每次
