@@ -73,8 +73,14 @@ Medium
 - [25. Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)
 
 **7. BFS**
+- [286. Walls and Gates](https://leetcode.com/problems/walls-and-gates/)：通过一次性加入gates来优化
+- [1197. Minimum Knight Moves](https://leetcode.com/problems/minimum-knight-moves/)：用相对坐标限制棋盘大小
+
 
 **8. DFS**
+- [490. The Maze](https://leetcode.com/problems/the-maze/):沿着四个方向走到底，再对四个方向dfs
+- [694. Number of Distinct Islands](https://leetcode.com/problems/number-of-distinct-islands/)：用相对坐标建立形状的String
+
 
 **9. Two Heaps**
 - [295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)
