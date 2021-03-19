@@ -129,6 +129,9 @@ Medium
 - [212. Word Search II](https://leetcode.com/problems/word-search-ii/)
 - [207. Course Schedule](https://leetcode.com/problems/course-schedule/)：需要会两种方法
 
+排列组合类
+- [39. Combination Sum](https://leetcode.com/problems/combination-sum/): 时间复杂度： O(n*2^n)
+
 **15. Graph**
 DFS:
 - [1466. Reorder Routes to Make All Paths Lead to the City Zero](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/)：时空复杂度怎么分析？
