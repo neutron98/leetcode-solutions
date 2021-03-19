@@ -101,6 +101,7 @@ Medium
 - [(Grokking)Structurally Unique Binary Search Trees](https://www.educative.io/courses/grokking-the-coding-interview/3j9V2QL3Ky9): 类似上题。上题是把每一个operator作为分界线，这题是把每一个[start,end] 区间的值作为根节点。
 - [96. Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)
 - [1239. Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/)：三个优化： (1)不需要真的用StringBuilder来建立string，记录长度就好。  (2)用array记录count，而不是用set记录frequencey，避免backtrack时频繁加减元素。 (3)这是个combination问题，不是permutaion。所以要有start index,下次调用从i+1开始
+- [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/): 所有的都要从第一个开始，所以dfs内部不用i的循环，而是直接去下一位。
 
 **11. Binary Search**
 - [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/):这道题要用九章模板
