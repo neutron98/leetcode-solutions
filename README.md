@@ -81,6 +81,7 @@ Medium
 - [490. The Maze](https://leetcode.com/problems/the-maze/):沿着四个方向走到底，再对四个方向dfs
 - [694. Number of Distinct Islands](https://leetcode.com/problems/number-of-distinct-islands/)：用相对坐标建立形状的String
 - [332. Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/): post-order dfs
+- [399. Evaluate Division](https://leetcode.com/problems/evaluate-division/)：(1)双层map。  (2) visited set要每次外层call dfs的时候都新建一个  (3)eval2也要!=-1，即判断中间点到target是否可达
 
 **9. Two Heaps**
 - [295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)
