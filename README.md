@@ -130,7 +130,8 @@ Medium
 - [207. Course Schedule](https://leetcode.com/problems/course-schedule/)：需要会两种方法
 
 排列组合类
-- [39. Combination Sum](https://leetcode.com/problems/combination-sum/): 时间复杂度： O(n*2^n)
+- [39. Combination Sum](https://leetcode.com/problems/combination-sum/): (1)从i开始，传入的也是i，因为可以重复使用。(2) sort + compare剪枝。时间复杂度： O(2^n)
+- [40. Combination Sum II](https://leetcode.com/problems/combination-sum/): 从i开始，传入的也是i+1，因为不能重复使用。并且要在循环中跳过重复。时间复杂度： O(2^n)
 
 **15. Graph**
 DFS:
