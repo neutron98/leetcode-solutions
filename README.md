@@ -240,6 +240,9 @@ Topological Sort:
 - [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)：要能一步步推导
 - [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/)：和上题一样
 
+**22. Greedy**
+- [1578. Minimum Deletion Cost to Avoid Repeating Letters](https://leetcode.com/problems/minimum-deletion-cost-to-avoid-repeating-letters/)：sum - maxCost
+
 **Design**
 - [359. Logger Rate Limiter](https://leetcode.com/problems/logger-rate-limiter/): 注意Queue和HashMap的trade-off。面试中还有两个需要clarify的(1)不print的message是discard还是enque  (2) 输入是否按照timestamp排序。因为这会决定我们用queue还是pq。
 
