@@ -69,8 +69,26 @@ Medium
 - [1539. Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number/): 需要处理remaining numbers
 
 **6. LinkedList**
+
+主要三种套路：
+(1) reverse链表
 - [92. Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)
-- [25. Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)
+- [25. Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)：n1到nk的表示法。返回preSubList的话可以不用类变量，内部直接连。注意循环是到k还是k-1。
+- [24. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)：和上题类似，也是返回preSubList。
+
+(2) 找中点
+(3) Distance of k
+- [142. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)：两次fast & slow pointer，再distance of k
+- [160. Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)：先连起来再找环的起点
+- [61. Rotate List](https://leetcode.com/problems/rotate-list/)
+
+(4) merge/insert
+- [138. Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)：奇技淫巧
+- [708. Insert into a Sorted Circular Linked List](https://leetcode.com/problems/insert-into-a-sorted-circular-linked-list/)
+- [86. Partition List](https://leetcode.com/problems/partition-list/)：分成beforeList和afterList
+- [148. Sort List](https://leetcode.com/problems/sort-list/)：merge sort好做，但是一定要弄清楚返回的中点是哪一个点，还有记得断开左右list的连接再sort。merge的时候不要忘了更新p1和p2。quick sort有点麻烦。
+- [445. Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/)：看一下O(1)的解法
+
 
 **7. BFS**
 - [286. Walls and Gates](https://leetcode.com/problems/walls-and-gates/)：通过一次性加入gates来优化
@@ -117,6 +135,7 @@ Medium
 
 - [136. Single Number](https://leetcode.com/problems/single-number/): 核心在于 a XOR a = 0。 所以a XOR b XOR a = b。
 - [260. Single Number III](https://leetcode.com/problems/single-number-iii/)：结果有两个数。利用不同的bit来区分这两个数。
+- [1290. Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)
 
 
 
@@ -221,6 +240,7 @@ Topological Sort:
 - [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)：类似two sum的rolling prefix sum。这题可以从brute force写起，然后写三种解法，better brute force的O(n^2)+O(1), prefix sum的O(n^2)+O(n), 以及rolling prefix sum。
 - [325. Maximum Size Subarray Sum Equals k](https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/)：和上题类似用一个map。注意index更新条件。
 - [862. Shortest Subarray with Sum at Least K](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/):这题很取巧，prefix sum数组+deque
+- [437. Path Sum III](https://leetcode.com/problems/path-sum-iii/)： Tree DFS + Prefix Sum，经典题
 
 
 **20. String**
@@ -243,12 +263,13 @@ Topological Sort:
 **22. Greedy**
 - [1578. Minimum Deletion Cost to Avoid Repeating Letters](https://leetcode.com/problems/minimum-deletion-cost-to-avoid-repeating-letters/)：sum - maxCost
 - [1647. Minimum Deletions to Make Character Frequencies Unique](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/)
-**Design**
+
+**23. Design**
 - [359. Logger Rate Limiter](https://leetcode.com/problems/logger-rate-limiter/): 注意Queue和HashMap的trade-off。面试中还有两个需要clarify的(1)不print的message是discard还是enque  (2) 输入是否按照timestamp排序。因为这会决定我们用queue还是pq。
 - [1347. Minimum Number of Steps to Make Two Strings Anagram](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/)：通过相同字母抵消，减小问题规模。
 
 
-**Stream类型问题**
+**24. Stream类型问题**
 
 - [702. Search in a Sorted Array of Unknown Size](https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/)：end每次
 
