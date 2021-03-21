@@ -263,6 +263,7 @@ Topological Sort:
 **22. Greedy**
 - [1578. Minimum Deletion Cost to Avoid Repeating Letters](https://leetcode.com/problems/minimum-deletion-cost-to-avoid-repeating-letters/)：sum - maxCost
 - [1647. Minimum Deletions to Make Character Frequencies Unique](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/)
+- [621. Task Scheduler](https://leetcode.com/problems/task-scheduler/)：有空准备一下[变形](https://www.1point3acres.com/bbs/interview/software-engineer-289740.html)。
 
 **23. Design**
 - [359. Logger Rate Limiter](https://leetcode.com/problems/logger-rate-limiter/): 注意Queue和HashMap的trade-off。面试中还有两个需要clarify的(1)不print的message是discard还是enque  (2) 输入是否按照timestamp排序。因为这会决定我们用queue还是pq。
