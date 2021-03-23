@@ -269,6 +269,7 @@ Topological Sort:
 - [359. Logger Rate Limiter](https://leetcode.com/problems/logger-rate-limiter/): 注意Queue和HashMap的trade-off。面试中还有两个需要clarify的(1)不print的message是discard还是enque  (2) 输入是否按照timestamp排序。因为这会决定我们用queue还是pq。
 - [1347. Minimum Number of Steps to Make Two Strings Anagram](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/)：通过相同字母抵消，减小问题规模。
 - [362. Design Hit Counter](https://leetcode.com/problems/design-hit-counter/)：这题不需要单独的map，因为我们没有message作为key。所以用queue或者deque。
+- [1429. First Unique Number](https://leetcode.com/problems/first-unique-number/)：也是Queue+Map。Queue用来代表timestamp（即使没有explicit timestamp)，map用来记录是否unique。还可以用LinkedHashSet作为queue进行优化。
 
 
 **24. Stream类型问题**
