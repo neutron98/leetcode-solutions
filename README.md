@@ -270,7 +270,7 @@ Topological Sort:
 - [1347. Minimum Number of Steps to Make Two Strings Anagram](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/)：通过相同字母抵消，减小问题规模。
 - [362. Design Hit Counter](https://leetcode.com/problems/design-hit-counter/)：这题不需要单独的map，因为我们没有message作为key。所以用queue或者deque。
 - [1429. First Unique Number](https://leetcode.com/problems/first-unique-number/)：也是Queue+Map。Queue用来代表timestamp（即使没有explicit timestamp)，map用来记录是否unique。还可以用LinkedHashSet作为queue进行优化。
-
+- [380. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)：Map + List。List用Last element进行优化。
 
 **24. Stream类型问题**
 
