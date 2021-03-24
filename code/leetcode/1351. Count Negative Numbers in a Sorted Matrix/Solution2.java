@@ -1,4 +1,5 @@
 class Solution {
+    // Binary search. O(MlogN)
     public int countNegatives(int[][] grid) {
         if (grid == null || grid.length == 0 || grid[0].length == 0){
             return 0;
