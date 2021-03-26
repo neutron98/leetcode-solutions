@@ -147,7 +147,7 @@ Medium
 - [373. Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/): 有点像滑动窗口和632的结合。窗口没到size的时候一直加。到了之后replace
 
 **14. Backtracking**
-- [79. Word Search](https://leetcode.com/problems/word-search/): 时间空间复杂度分析
+- [79. Word Search](https://leetcode.com/problems/word-search/): 不需要StringBuilder来append字符。时间复杂度O(mn*4^l)，空间复杂度O(mn+l)。
 - [212. Word Search II](https://leetcode.com/problems/word-search-ii/)
 - [207. Course Schedule](https://leetcode.com/problems/course-schedule/)：需要会两种方法
 
