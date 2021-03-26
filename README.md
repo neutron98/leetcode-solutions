@@ -260,6 +260,11 @@ Topological Sort:
 - [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)：要能一步步推导
 - [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/)：和上题一样
 
+
+LCS类型问题：
+
+- [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)
+
 **22. Greedy**
 - [1578. Minimum Deletion Cost to Avoid Repeating Letters](https://leetcode.com/problems/minimum-deletion-cost-to-avoid-repeating-letters/)：sum - maxCost
 - [1647. Minimum Deletions to Make Character Frequencies Unique](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/)
