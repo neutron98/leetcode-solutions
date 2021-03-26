@@ -1,9 +1,11 @@
 **1. Subsets**  O(2^n)
 
+
 ```
 Input: nums = [1,2,3]
 Output: [[],[1],[2],[1,2],[3],[1,3],[2,3],[1,2,3]]
 ```
+
 
 需要start index,但是不需要visited，也不需要backtrack。因为每次是向后取的，不会重复取到前面的元素。
 下一次dfs调用从i+1开始。
@@ -33,6 +35,7 @@ class Solution {
 ```
 
 去重方法：
+
 ```java
         if (i > 0 && nums[i] == nums[i - 1] && !visited[i - 1]){
             continue;
@@ -93,7 +96,8 @@ class Solution {
         }
 ```
 
-**3. Combination Sum***
+**3. Combination Sum**
+
 
 每个数可以用多次：
 ```
