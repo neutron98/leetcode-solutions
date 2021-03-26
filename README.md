@@ -268,11 +268,18 @@ LCS类型问题：
 **22. Greedy**
 - [1578. Minimum Deletion Cost to Avoid Repeating Letters](https://leetcode.com/problems/minimum-deletion-cost-to-avoid-repeating-letters/)：sum - maxCost
 - [1647. Minimum Deletions to Make Character Frequencies Unique](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/)
-- [621. Task Scheduler](https://leetcode.com/problems/task-scheduler/)：有空准备一下[变形](https://www.1point3acres.com/bbs/interview/software-engineer-289740.html)。
 
 Monitonic Stack:
 - [496. Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)
 - [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)
+
+RoundRobin
+- [621. Task Scheduler](https://leetcode.com/problems/task-scheduler/)
+- [767. Reorganize String](https://leetcode.com/problems/reorganize-string/)
+
+重置currSum:
+- [134. Gas Station](https://leetcode.com/problems/gas-station/)
+- [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
 
 
 **23. Design**
