@@ -148,7 +148,7 @@ Medium
 
 **14. Backtracking**
 - [79. Word Search](https://leetcode.com/problems/word-search/): 不需要StringBuilder来append字符。时间复杂度O(mn*4^l)，空间复杂度O(mn+l)。
-- [212. Word Search II](https://leetcode.com/problems/word-search-ii/)
+- [212. Word Search II](https://leetcode.com/problems/word-search-ii/)：DFS解法：O(sum(mn*4^l)).   Trie解法：O(mn*4^l)
 - [207. Course Schedule](https://leetcode.com/problems/course-schedule/)：需要会两种方法
 
 排列组合类
