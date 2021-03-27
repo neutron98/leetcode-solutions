@@ -291,3 +291,75 @@ class Solution {
     }
 }
 ```
+
+
+**6.N-Queens**
+```java
+class Solution {
+    public List<List<String>> solveNQueens(int n) {
+        List<List<String>> results = new ArrayList<>();
+        
+        if (n <= 0){
+            return results;
+        }
+        
+        int[] positions = new int[n]; // col index in each row
+        
+        solve(0, positions, n, results);
+        
+        return results;
+    }
+    
+    private void solve(int r, int[] positions, int n, List<List<String>> results){
+        if (r == n){
+            List<String> board = drawBoard(positions);
+            results.add(board);
+            return;
+        }
+        
+        for (int col = 0; col < n; col++){
+            if (!isValid(r, col, positions, n)){
+                continue;
+            }
+            
+            positions[r] = col;
+            solve(r + 1, positions, n, results);
+        }
+    }
+    
+    private boolean isValid(int row, int col, int[] positions, int n){
+        for (int i = 0; i < row; i++){
+            int j = positions[i];
+            
+            if (j == col){
+                return false;
+            }
+            
+            if (col - j == row - i){
+                return false;
+            }
+            
+            if (col - j == i - row){
+                return false;
+            }
+        }
+        
+        return true;
+    }
+    
+    private List<String> drawBoard(int[] positions){
+        int n = positions.length;
+        List<String> board = new ArrayList<>();
+        for (int i = 0; i < n; i++){
+            StringBuilder builder = new StringBuilder();
+            for (int j = 0; j < n; j++){
+                builder.append('.');
+            }
+            builder.setCharAt(positions[i], 'Q');
+            board.add(builder.toString());
+        }
+        
+        return board;
+    }
+}
+```
