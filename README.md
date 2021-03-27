@@ -259,6 +259,7 @@ Topological Sort:
 - [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)：直接expand around center
 - [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)：要能一步步推导
 - [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/)：和上题一样
+- [139. Word Break](https://leetcode.com/submissions/detail/469938647/)
 
 
 LCS类型问题：
