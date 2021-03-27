@@ -1,4 +1,5 @@
-1. Minimum Size Subarray Sum >= k
+**1. Minimum Size Subarray Sum >= k**
+
 Shrink窗口的条件:>=target
 更新窗口在循环内部.
 
@@ -28,7 +29,7 @@ class Solution {
 }
 ```
 
-2. Longest Substring with At Most K Distinct Characters
+**2. Longest Substring with At Most K Distinct Characters**
 
 Shrink窗口的条件window size > k
 更新窗口在循环外部
