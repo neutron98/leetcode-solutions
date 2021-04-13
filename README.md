@@ -248,6 +248,7 @@ Topological Sort:
 - [325. Maximum Size Subarray Sum Equals k](https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/)：和上题类似用一个map。注意index更新条件。
 - [862. Shortest Subarray with Sum at Least K](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/):这题很取巧，prefix sum数组+deque
 - [437. Path Sum III](https://leetcode.com/problems/path-sum-iii/)： Tree DFS + Prefix Sum，经典题
+- [523. Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/)：cache remainders
 
 
 **20. String**
