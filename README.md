@@ -137,6 +137,7 @@ Medium
 - [50. Pow(x, n)](https://leetcode.com/problems/powx-n/)
 - [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/)
 - [74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)
+- [1539. Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number/)：套用一般思路慢慢理清楚。首先尝试用二分，我并不知道return的是什么。只是用二分的核心思想：guess a position, compare something, go left or right。发现要比较的是missing number之后可以缩小范围。最后知道r<l才知道要return的是什么。
 
 **12. Bit Operation**
 
