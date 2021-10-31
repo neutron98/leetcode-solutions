@@ -97,6 +97,9 @@ Medium
 
 
 **7. BFS**
+设置成自己visited还是neighbor visited? - neighbor。并且加queue前设置成visited。
+
+- [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)：如果用BFS做这个题，一定要在循环中把neighbor设置成visited，再把neighbor加queue。不然同一个点可能会被加到不同的queue里面。
 - [286. Walls and Gates](https://leetcode.com/problems/walls-and-gates/)：通过一次性加入gates来优化
 - [1197. Minimum Knight Moves](https://leetcode.com/problems/minimum-knight-moves/)：用相对坐标限制棋盘大小
 
