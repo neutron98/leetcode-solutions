@@ -6,6 +6,22 @@ Tree traversal, preorder, inorder, postorder
 
 # leetcode-solutions 总结
 **1. Sliding Window**
+套路：
+shortest:
+int l = 0, r;
+for (r = 0; r < len; r++){ 
+ while条件满足时，move l -> shrink window，让window尽可能小
+    更新长度
+}
+
+longest:
+
+int l = 0, r;
+for (r = 0; r < len; r++){ 
+ if条件满足，更新长度
+ while条件**不满足**时，move l -> move window start。因为长度在这之前更新了
+}
+
 
 算sum类型：
 - [Maximum Sum Subarray of Size K](https://www.educative.io/courses/grokking-the-coding-interview/JPKr0kqLGNP)
@@ -17,7 +33,9 @@ Tree traversal, preorder, inorder, postorder
 - [424. Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/):和340很像，只是shrink的条件写法不一样
 - [1004. Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)：类似上题，但是不用map
 
-- [395. Longest Substring with At Least K Repeating Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/)
+- [395. Longest Substring with At Least K Repeating Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/):
+有点难，不常规。主要是右指针向右可能break条件，所以需要加一个限制，那就是这个window的distinct character是m（m form 1 to 26)，然后根据需要extend和move。
+https://www.youtube.com/watch?v=_MJKUvM-4fM
 - [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 
 
