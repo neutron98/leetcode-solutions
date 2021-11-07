@@ -22,6 +22,7 @@
  - [322. Coin Change](https://leetcode.com/problems/coin-change/)
  - [518. Coin Change 2](https://leetcode.com/problems/coin-change-2/)
  - [62. Unique Paths](https://leetcode.com/problems/unique-paths/)
+ - [63. Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)
  
 3. 序列型动态规划
 4. 划分型动态规划
