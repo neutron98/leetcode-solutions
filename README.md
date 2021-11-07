@@ -6,21 +6,27 @@ Tree traversal, preorder, inorder, postorder
 
 # leetcode-solutions 总结
 **1. Sliding Window**
+
 套路：
+
 shortest:
+```
 int l = 0, r;
 for (r = 0; r < len; r++){ 
- while条件满足时，move l -> shrink window，让window尽可能小
+ while条件满足时，
     更新长度
+    move l -> shrink window
 }
+```
 
 longest:
-
+```
 int l = 0, r;
 for (r = 0; r < len; r++){ 
- if条件满足，更新长度
- while条件**不满足**时，move l -> move window start。因为长度在这之前更新了
+ if条件**不满足**时，move l -> move window start
+ 退出if之后条件已经满足，可以更新长度
 }
+```
 
 
 算sum类型：
