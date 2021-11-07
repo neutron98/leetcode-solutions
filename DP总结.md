@@ -17,12 +17,16 @@
 3.初始条件和边界情况
 4. 计算顺序
 
-
+**题目分类**
 1. 坐标型动态规划
-2. 序列型动态规划
-3. 划分型动态规划
-4. 区间和背包型动态规划
-5. 双序列型动态规划
+ - [322. Coin Change](https://leetcode.com/problems/coin-change/)
+ - [518. Coin Change 2](https://leetcode.com/problems/coin-change-2/)
+ - [62. Unique Paths](https://leetcode.com/problems/unique-paths/)
+ 
+3. 序列型动态规划
+4. 划分型动态规划
+5. 区间和背包型动态规划
+6. 双序列型动态规划
 
 
 **1. Longest Increasing Subsequence**
