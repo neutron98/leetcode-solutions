@@ -1,44 +1,50 @@
 class Solution {
+    /***
+    f[i][k]: if the frog can reach end from stone in pos {i}, when last jump from some index to {i} is {k} unit
     
-
+    d[0][0] = 0
+    
+    if i == n - 1 : return true
+    f[i][k] = f[i+k+1][k+1] || f[i+k-1][k-1] || f[i+k][k]
+    
+    
+    ***/
     Set<Integer> stoneSet = new HashSet<>();
-    Map<String, Boolean> stateMap = new HashMap<>();            // pos+$+lastJump
+    Map<Pair<Integer, Integer>, Boolean> stateMap = new HashMap<>();
+    
     public boolean canCross(int[] stones) {
-        
-        for (int pos: stones){
-            stoneSet.add(pos);
+        for (int stone: stones){
+            stoneSet.add(stone);
         }
         return dfs(stones, 0, 0);
     }
     
     private boolean dfs(int[] stones, int pos, int lastJump){
-
-        
-        if (pos == stones[stones.length - 1]){  // if reach the last position
+        if (pos == stones[stones.length - 1]){
             return true;
         }
-
-        String key = pos + "$" + lastJump;
-
-        if (stateMap.containsKey(key)){
-            return stateMap.get(key);    
-        }
         
-        if (!stoneSet.contains(pos)){ // if this is not a stone
+        if (!stoneSet.contains(pos)){
             return false;
         }
         
-        
-        boolean canReach = (lastJump > 0 && dfs(stones, pos + lastJump, lastJump)) 
-            || dfs(stones, pos + lastJump + 1, lastJump + 1) 
-            || (lastJump > 1 && dfs(stones, pos + lastJump - 1, lastJump - 1));
-        
-        if (canReach){
-            stateMap.put(key, true);
-            return true;
+        Pair<Integer, Integer> pair = new Pair<>(pos, lastJump);
+        if (stateMap.containsKey(pair)){
+            return stateMap.get(pair);
         }
-        // otherwise failed
-        stateMap.put(key, false);
-        return false;
+        
+        boolean canReach = false;
+        if (lastJump > 1 && dfs(stones, pos + lastJump - 1, lastJump - 1)){
+            canReach = true;
+        }
+        if (lastJump > 0 && dfs(stones, pos + lastJump, lastJump)){
+            canReach = true;
+        }
+        if (dfs(stones, pos + lastJump + 1, lastJump + 1)){
+            canReach = true;
+        }
+        
+        stateMap.put(pair, canReach);
+        return canReach;
     }
 }
