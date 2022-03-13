@@ -1,9 +1,3 @@
-微软考前复习：
-quick sort, merge sort
-
-Tree traversal, preorder, inorder, postorder
-
-
 # leetcode-solutions 总结
 **1. Sliding Window**
 
